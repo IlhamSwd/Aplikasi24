@@ -36,7 +36,7 @@ function getData() {
         for (const [index, row] of data.entries()) {
             list.innerHTML += `<tr><td>${row.nama}</td><td> ${row.testimoni}</td></tr/`;
         }
-    
+        
     }
 }
 // panggil getData()
